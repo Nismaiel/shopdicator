@@ -5,14 +5,14 @@ import 'package:shopdicator/features/graph/presentation/pages/graph_page.dart';
 
 part '../widgets/animated_box_widget.dart';
 
-class StatsScreen extends StatefulWidget {
-  const StatsScreen({super.key});
+class MetricsPage extends StatefulWidget {
+  const MetricsPage({super.key});
 
   @override
-  _StatsScreenState createState() => _StatsScreenState();
+  _MetricsPageState createState() => _MetricsPageState();
 }
 
-class _StatsScreenState extends State<StatsScreen> with SingleTickerProviderStateMixin {
+class _MetricsPageState extends State<MetricsPage> with SingleTickerProviderStateMixin {
   late AnimationController _controller;
   late Animation<double> _animation;
 
